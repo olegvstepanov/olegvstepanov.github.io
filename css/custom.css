@@ -1,0 +1,57 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+ul.nav, .jumbotron {
+	font-family: 'Arvo', courier, serif;
+	color: black;
+}
+ul.nav {
+ 	font-size: 13px;
+
+ }
+
+.jumbotron {
+	text-align: center;
+	background-image: url('images/Font.png');
+}
+
+.jumbotron h1{
+	margin-top: 0px;
+	margin-bottom: 450px;
+}
+
+.jumbotron p {
+	margin-bottom: 30px;
+}
+
+.btn-lg {
+	font-size: 36px;
+}
+.emphasis {
+	color: red;
+}
+.homepage {
+	text-align: center;
+}
+.homepage h2, .homepage h3{
+	color: #5cb85c;
+	font-family: 'Arvo', courier, serif;
+	text-transform: uppercase;
+}
+
+.homepage h2{
+	font-size: 30px;
+}
+.homepage h3{
+	font-size: 26px;
+}
+.homepage p{
+	font-size: 21px;
+	font-weight: 300;
+}
+.homepage a{
+	color: #5cb85c;
+}
